@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi Suthar | Data Analyst Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Ravi Suthar - Aspiring Data Analyst, Data Science Educator, and Business Intelligence Enthusiast.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Ravi<span class="highlight">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact" class="btn-contact">Contact Me</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="location-badge">
+                    <ion-icon name="location-outline"></ion-icon> India
+                </div>
+                <h1 class="hero-title">Hi, I'm <span class="gradient-text">Ravi Suthar</span></h1>
+                <h2 class="hero-subtitle">Aspiring Data Analyst | Data Science Educator | Business Intelligence
+                    Enthusiast</h2>
+                <p class="hero-description">
+                    I analyze data to uncover insights, solve business problems, and tell impactful stories through
+                    dashboards and analytics.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="public/resume.pdf" class="btn btn-outline" download>Download Resume <ion-icon
+                            name="download-outline"></ion-icon></a>
+                </div>
+                <div class="social-links">
+                    <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank" aria-label="GitHub"><ion-icon
+                            name="logo-github"></ion-icon></a>
+                    <a href="#" target="_blank" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="mailto:contact@ravisuthar.com" aria-label="Email"><ion-icon
+                            name="mail-outline"></ion-icon></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="Images/Ravi.jpeg" alt="Ravi Suthar">
+                </div>
+                <!-- Floating Elements (Decorative) -->
+                <div class="float-card card-1">
+                    <ion-icon name="pie-chart"></ion-icon>
+                    <span>Data Vix</span>
+                </div>
+                <div class="float-card card-2">
+                    <ion-icon name="code-slash"></ion-icon>
+                    <span>Python</span>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <ion-icon name="chevron-down-outline"></ion-icon>
+        </a>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">About <span class="highlight">Me</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a passionate Data Analyst and Educator with a strong foundation in Business Intelligence
+                        and Data Science. With experience ranging from corporate analytics at Morgan Stanley and Infosys
+                        to empowering the next generation of tech enthusiasts, I bridge the gap between complex data and
+                        actionable strategy.
+                    </p>
+                    <p>
+                        My journey has taken me from optimization roles as a Senior System Engineer to leading
+                        educational initiatives in AI and Robotics. I thrive on solving difficult business problems by
+                        analyzing transactional data, customer behavior, and operational metrics.
+                    </p>
+                    <p>
+                        Currently, I am focused on delivering high-impact training in Data Science and helping
+                        businesses leverage their data assets through intuitive dashboards and predictive modeling.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-target="5">0+</h3>
+                        <p class="stat-label">Years Exp.</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-target="10">0+</h3>
+                        <p class="stat-label">Projects</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-target="100">0+</h3>
+                        <p class="stat-label">Students Mentored</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & <span class="highlight">Tools</span></h2>
+                <p class="section-subtitle">My technical arsenal for turning data into insights.</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Technical Skills -->
+                <div class="skill-category">
+                    <h3><ion-icon name="analytics-outline"></ion-icon> Data Analysis</h3>
+                    <div class="skill-tags">
+                        <span>Data Cleaning</span>
+                        <span>EDA</span>
+                        <span>Business Insights</span>
+                        <span>SQL</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+
+                <!-- Visualization -->
+                <div class="skill-category">
+                    <h3><ion-icon name="bar-chart-outline"></ion-icon> Visualization</h3>
+                    <div class="skill-tags">
+                        <span>Power BI</span>
+                        <span>Tableau</span>
+                        <span>Excel</span>
+                        <span>Dashboarding</span>
+                        <span>Storytelling</span>
+                    </div>
+                </div>
+
+                <!-- Domains -->
+                <div class="skill-category">
+                    <h3><ion-icon name="briefcase-outline"></ion-icon> Domains</h3>
+                    <div class="skill-tags">
+                        <span>Business Analytics</span>
+                        <span>STEM Education</span>
+                        <span>AI/Robotics</span>
+                        <span>Entrepreneurship</span>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category">
+                    <h3><ion-icon name="people-outline"></ion-icon> Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span>Problem Solving</span>
+                        <span>Mentorship</span>
+                        <span>Communication</span>
+                        <span>Stakeholder Mgmt</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+                <p class="section-subtitle">A collection of my work in SQL, Power BI, Excel, Tableau, and Python.</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: SQL 1 -->
+                <div class="project-card" data-category="sql">
+                    <div class="project-image">
+                        <img src="Images/Cover 1.png" alt="Sales Performance Analysis">
+                        <div class="project-overlay">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank" class="btn-icon"
+                                title="View Project"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">SQL</span>
+                            <span class="tag">Joins</span>
+                        </div>
+                        <h3 class="project-title">Sales Performance Analysis</h3>
+                        <p class="project-desc">Analyzed transactional sales data to evaluate revenue, profit, and
+                            regional performance.</p>
+                        <div class="project-links">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank">View Details <ion-icon
+                                    name="arrow-forward"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: SQL 2 -->
+                <div class="project-card" data-category="sql">
+                    <div class="project-image">
+                        <img src="Images/Cover 1.png" alt="Customer Retention & Churn">
+                        <div class="project-overlay">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank" class="btn-icon"
+                                title="View Project"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">SQL</span>
+                            <span class="tag">CTEs</span>
+                        </div>
+                        <h3 class="project-title">Customer Retention & Churn Analysis</h3>
+                        <p class="project-desc">Identified churn patterns and analyzed customer purchase behavior using
+                            advanced SQL.</p>
+                        <div class="project-links">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank">View Details <ion-icon
+                                    name="arrow-forward"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Power BI 1 -->
+                <div class="project-card" data-category="powerbi">
+                    <div class="project-image">
+                        <img src="Images/Cover 1.png" alt="Business Performance Dashboard">
+                        <div class="project-overlay">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank" class="btn-icon"
+                                title="View Project"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">DAX</span>
+                        </div>
+                        <h3 class="project-title">Business Performance Dashboard</h3>
+                        <p class="project-desc">Interactive dashboard tracking KPIs, revenue trends, and operational
+                            costs.</p>
+                        <div class="project-links">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank">View Details <ion-icon
+                                    name="arrow-forward"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Power BI 2 -->
+                <div class="project-card" data-category="powerbi">
+                    <div class="project-image">
+                        <img src="Images/Cover 1.png" alt="Customer Segmentation Dashboard">
+                        <div class="project-overlay">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank" class="btn-icon"
+                                title="View Project"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">Analytics</span>
+                        </div>
+                        <h3 class="project-title">Customer Segmentation Dashboard</h3>
+                        <p class="project-desc">Analyzed customer segments based on spending behavior and engagement.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank">View Details <ion-icon
+                                    name="arrow-forward"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Excel 1 -->
+                <div class="project-card" data-category="excel">
+                    <div class="project-image">
+                        <img src="Images/Cover 1.png" alt="Sales & Profit Analysis">
+                        <div class="project-overlay">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank" class="btn-icon"
+                                title="View Project"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Excel</span>
+                            <span class="tag">Pivot Tables</span>
+                        </div>
+                        <h3 class="project-title">Sales & Profit Analysis</h3>
+                        <p class="project-desc">Identified top-performing products and regional trends using Excel.</p>
+                        <div class="project-links">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank">View Details <ion-icon
+                                    name="arrow-forward"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Excel 2 -->
+                <div class="project-card" data-category="excel">
+                    <div class="project-image">
+                        <img src="Images/Cover 1.png" alt="Customer Purchase Behavior">
+                        <div class="project-overlay">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank" class="btn-icon"
+                                title="View Project"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Excel</span>
+                            <span class="tag">Charts</span>
+                        </div>
+                        <h3 class="project-title">Customer Purchase Behavior</h3>
+                        <p class="project-desc">Analyzed purchasing patterns to distinguish repeat vs. one-time buyers.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank">View Details <ion-icon
+                                    name="arrow-forward"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7: Tableau 1 -->
+                <div class="project-card" data-category="tableau">
+                    <div class="project-image">
+                        <img src="Images/Cover 1.png" alt="Sales Performance Dashboard">
+                        <div class="project-overlay">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank" class="btn-icon"
+                                title="View Project"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Tableau</span>
+                            <span class="tag">Dashboards</span>
+                        </div>
+                        <h3 class="project-title">Sales Performance Dashboard</h3>
+                        <p class="project-desc">Visualized sales trends and regional performance with interactive
+                            filters.</p>
+                        <div class="project-links">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank">View Details <ion-icon
+                                    name="arrow-forward"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8: Tableau 2 -->
+                <div class="project-card" data-category="tableau">
+                    <div class="project-image">
+                        <img src="Images/Cover 1.png" alt="Customer Segmentation">
+                        <div class="project-overlay">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank" class="btn-icon"
+                                title="View Project"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Tableau</span>
+                            <span class="tag">Visual Analytics</span>
+                        </div>
+                        <h3 class="project-title">Customer Segmentation Analysis</h3>
+                        <p class="project-desc">Segmented customers by spending and frequency to highlight high-value
+                            groups.</p>
+                        <div class="project-links">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank">View Details <ion-icon
+                                    name="arrow-forward"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 9: Python 1 -->
+                <div class="project-card" data-category="python">
+                    <div class="project-image">
+                        <img src="Images/Cover 1.png" alt="EDA on Sales Data">
+                        <div class="project-overlay">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank" class="btn-icon"
+                                title="View Project"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Pandas</span>
+                        </div>
+                        <h3 class="project-title">EDA on Sales Data</h3>
+                        <p class="project-desc">Performed exploratory data analysis to understand seasonality and
+                            product concentration.</p>
+                        <div class="project-links">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank">View Details <ion-icon
+                                    name="arrow-forward"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 10: Python 2 -->
+                <div class="project-card" data-category="python">
+                    <div class="project-image">
+                        <img src="Images/Cover 1.png" alt="Customer Behavior Analysis">
+                        <div class="project-overlay">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank" class="btn-icon"
+                                title="View Project"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Matplotlib</span>
+                        </div>
+                        <h3 class="project-title">Customer Behavior Analysis</h3>
+                        <p class="project-desc">Analyzed transaction data to pinpoint lifetime value and purchase
+                            frequency.</p>
+                        <div class="project-links">
+                            <a href="https://ingrade-ravi.github.io/Ravi/" target="_blank">View Details <ion-icon
+                                    name="arrow-forward"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Data Analyst Section -->
+    <section id="why" class="section bg-alt center-text-section">
+        <div class="container">
+            <div class="quote-box">
+                <ion-icon name="quote-outline" class="quote-icon"></ion-icon>
+                <h2 class="section-title">Why Data <span class="highlight">Analysis?</span></h2>
+                <div class="why-content">
+                    <p>
+                        "I am driven by the belief that data is not just numbers—it's the voice of a business. My
+                        passion lies in translating complex datasets into clear, actionable narratives that empower
+                        decision-makers. Whether it's optimizing operations or understanding customer behavior, I thrive
+                        on the 'aha' moment when data reveals the path forward."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title experience-title"><span class="section-number">04.</span> EXPERIENCE</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="timeline">
+                <!-- Role 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="role-header">
+                            <h3>Data Science Trainer</h3>
+                            <h4 class="company-name">InGrade</h4>
+                        </div>
+                        <span class="date-badge">Jan 2025 - Present</span>
+                        <p>Delivering training in Data Science, Analytics, and Business Problem-Solving. Mentoring
+                            learners on real-world use cases.</p>
+                        <div class="role-tags">
+                            <span>Python</span>
+                            <span>Teaching</span>
+                            <span>Curriculum Design</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Role 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="role-header">
+                            <h3>Tech Lead</h3>
+                            <h4 class="company-name">Aerophantom</h4>
+                        </div>
+                        <span class="date-badge">Aug 2023 - Present</span>
+                        <p>Conducting AI and Robotics workshops in Tier 2/3 institutions. Designing accessible technical
+                            content.</p>
+                        <div class="role-tags">
+                            <span>Robotics</span>
+                            <span>AI</span>
+                            <span>Leadership</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Role 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="role-header">
+                            <h3>Program Coordinator</h3>
+                            <h4 class="company-name">CoGrad</h4>
+                        </div>
+                        <span class="date-badge">Aug 2017 - Aug 2023</span>
+                        <p>Led CSR-funded educational projects and teacher training programs in collaboration with
+                            I-Hub, IIT Delhi.</p>
+                        <div class="role-tags">
+                            <span>Project Mgmt</span>
+                            <span>Education</span>
+                            <span>Strategy</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Role 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="role-header">
+                            <h3>Data Analyst</h3>
+                            <h4 class="company-name">Morgan Stanley</h4>
+                        </div>
+                        <span class="date-badge">Past Role</span>
+                        <p>Analyzed complex financial datasets to support strategic decisions. Built automated reporting
+                            dashboards to track KPIs.</p>
+                        <div class="role-tags">
+                            <span>SQL</span>
+                            <span>Financial Analysis</span>
+                            <span>Reporting</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Role 5 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="role-header">
+                            <h3>Senior System Engineer</h3>
+                            <h4 class="company-name">Infosys</h4>
+                        </div>
+                        <span class="date-badge">Past Role</span>
+                        <p>Collaborated with cross-functional teams to improve data quality and system optimization.</p>
+                        <div class="role-tags">
+                            <span>System Eng</span>
+                            <span>Optimization</span>
+                            <span>Data Quality</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-alt">
+        <div class="container contact-wrapper">
+            <div class="contact-info">
+                <h2 class="section-title">Let's <span class="highlight">Connect</span></h2>
+                <p>Have a project in mind or want to discuss data? I'd love to hear from you.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <span>contact@ravisuthar.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                        <span>LinkedIn Profile</span>
+                    </div>
+                    <div class="contact-item">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <span>India</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message <ion-icon
+                            name="paper-plane-outline"></ion-icon></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-left">
+                <p>&copy; 2025 Ravi Suthar. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <a href="#hero" class="back-to-top">Back to Top <ion-icon name="arrow-up-outline"></ion-icon></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
